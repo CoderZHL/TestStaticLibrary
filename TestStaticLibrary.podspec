@@ -2,8 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "TestStaticLibrary"
   s.version      = "0.0.1"
   s.summary      = "A short description of TestStaticLibrary."
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "tttt"
 
   s.homepage     = "https://github.com/CoderZHL/TestStaticLibrary"
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
