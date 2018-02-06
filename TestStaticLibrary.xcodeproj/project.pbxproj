@@ -10,21 +10,16 @@
 		B5009C8720284EC9001017A2 /* TestStaticLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5009C7D20284EC8001017A2 /* TestStaticLibrary.framework */; };
 		B5009C8C20284EC9001017A2 /* TestStaticLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009C8B20284EC9001017A2 /* TestStaticLibraryTests.swift */; };
 		B5009C8E20284EC9001017A2 /* TestStaticLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = B5009C8020284EC8001017A2 /* TestStaticLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5009CC220284FA2001017A2 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009CB320284F9F001017A2 /* APIError.swift */; };
-		B5009CC320284FA2001017A2 /* GenericRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009CB420284F9F001017A2 /* GenericRequest.swift */; };
-		B5009CC420284FA2001017A2 /* RequestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009CB520284F9F001017A2 /* RequestExecutor.swift */; };
-		B5009CC520284FA2001017A2 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009CB620284FA0001017A2 /* MultipartFormData.swift */; };
-		B5009CC620284FA2001017A2 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009CB720284FA0001017A2 /* Request.swift */; };
-		B5009CC720284FA2001017A2 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009CB820284FA0001017A2 /* Result.swift */; };
-		B5009CC820284FA2001017A2 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009CB920284FA0001017A2 /* HTTPMethod.swift */; };
-		B5009CC920284FA2001017A2 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009CBA20284FA0001017A2 /* Parser.swift */; };
-		B5009CCA20284FA2001017A2 /* NopCancelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009CBB20284FA1001017A2 /* NopCancelable.swift */; };
-		B5009CCB20284FA2001017A2 /* AnonymousCancelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009CBC20284FA1001017A2 /* AnonymousCancelable.swift */; };
-		B5009CCC20284FA2001017A2 /* StringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009CBD20284FA1001017A2 /* StringParser.swift */; };
-		B5009CCD20284FA2001017A2 /* VoidParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009CBE20284FA1001017A2 /* VoidParser.swift */; };
-		B5009CCE20284FA2001017A2 /* Cancelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009CBF20284FA1001017A2 /* Cancelable.swift */; };
-		B5009CCF20284FA2001017A2 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009CC020284FA1001017A2 /* Service.swift */; };
-		B5009CD020284FA2001017A2 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009CC120284FA2001017A2 /* Engine.swift */; };
+		B5009D4E20293BBE001017A2 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009D4D20293BBE001017A2 /* ViewController1.swift */; };
+		B5009D5020293BDC001017A2 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009D4F20293BDC001017A2 /* ViewController2.swift */; };
+		B5009D5420293BF2001017A2 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009D5320293BF2001017A2 /* ViewController3.swift */; };
+		B5009D5620293BFC001017A2 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009D5520293BFC001017A2 /* ViewController4.swift */; };
+		B5009D5820293C04001017A2 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009D5720293C04001017A2 /* ViewController5.swift */; };
+		B5009D5A20293C0D001017A2 /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009D5920293C0D001017A2 /* ViewController6.swift */; };
+		B5009D5C20293C15001017A2 /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009D5B20293C15001017A2 /* ViewController7.swift */; };
+		B5009D5E20293C1D001017A2 /* ViewController8.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009D5D20293C1D001017A2 /* ViewController8.swift */; };
+		B5009D6020293C29001017A2 /* ViewController9.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009D5F20293C29001017A2 /* ViewController9.swift */; };
+		B5009D6220293C33001017A2 /* ViewController10.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5009D6120293C33001017A2 /* ViewController10.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,21 +39,16 @@
 		B5009C8620284EC9001017A2 /* TestStaticLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestStaticLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5009C8B20284EC9001017A2 /* TestStaticLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStaticLibraryTests.swift; sourceTree = "<group>"; };
 		B5009C8D20284EC9001017A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5009CB320284F9F001017A2 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
-		B5009CB420284F9F001017A2 /* GenericRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericRequest.swift; sourceTree = "<group>"; };
-		B5009CB520284F9F001017A2 /* RequestExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestExecutor.swift; sourceTree = "<group>"; };
-		B5009CB620284FA0001017A2 /* MultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
-		B5009CB720284FA0001017A2 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
-		B5009CB820284FA0001017A2 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
-		B5009CB920284FA0001017A2 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
-		B5009CBA20284FA0001017A2 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
-		B5009CBB20284FA1001017A2 /* NopCancelable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NopCancelable.swift; sourceTree = "<group>"; };
-		B5009CBC20284FA1001017A2 /* AnonymousCancelable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnonymousCancelable.swift; sourceTree = "<group>"; };
-		B5009CBD20284FA1001017A2 /* StringParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringParser.swift; sourceTree = "<group>"; };
-		B5009CBE20284FA1001017A2 /* VoidParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoidParser.swift; sourceTree = "<group>"; };
-		B5009CBF20284FA1001017A2 /* Cancelable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancelable.swift; sourceTree = "<group>"; };
-		B5009CC020284FA1001017A2 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
-		B5009CC120284FA2001017A2 /* Engine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
+		B5009D4D20293BBE001017A2 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		B5009D4F20293BDC001017A2 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		B5009D5320293BF2001017A2 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		B5009D5520293BFC001017A2 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		B5009D5720293C04001017A2 /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		B5009D5920293C0D001017A2 /* ViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
+		B5009D5B20293C15001017A2 /* ViewController7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
+		B5009D5D20293C1D001017A2 /* ViewController8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController8.swift; sourceTree = "<group>"; };
+		B5009D5F20293C29001017A2 /* ViewController9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController9.swift; sourceTree = "<group>"; };
+		B5009D6120293C33001017A2 /* ViewController10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController10.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,23 +91,18 @@
 		B5009C7F20284EC8001017A2 /* TestStaticLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				B5009CBC20284FA1001017A2 /* AnonymousCancelable.swift */,
-				B5009CB320284F9F001017A2 /* APIError.swift */,
-				B5009CBF20284FA1001017A2 /* Cancelable.swift */,
-				B5009CC120284FA2001017A2 /* Engine.swift */,
-				B5009CB420284F9F001017A2 /* GenericRequest.swift */,
-				B5009CB920284FA0001017A2 /* HTTPMethod.swift */,
-				B5009CB620284FA0001017A2 /* MultipartFormData.swift */,
-				B5009CBB20284FA1001017A2 /* NopCancelable.swift */,
-				B5009CBA20284FA0001017A2 /* Parser.swift */,
-				B5009CB720284FA0001017A2 /* Request.swift */,
-				B5009CB520284F9F001017A2 /* RequestExecutor.swift */,
-				B5009CB820284FA0001017A2 /* Result.swift */,
-				B5009CC020284FA1001017A2 /* Service.swift */,
-				B5009CBD20284FA1001017A2 /* StringParser.swift */,
-				B5009CBE20284FA1001017A2 /* VoidParser.swift */,
 				B5009C8020284EC8001017A2 /* TestStaticLibrary.h */,
 				B5009C8120284EC8001017A2 /* Info.plist */,
+				B5009D4D20293BBE001017A2 /* ViewController1.swift */,
+				B5009D4F20293BDC001017A2 /* ViewController2.swift */,
+				B5009D5320293BF2001017A2 /* ViewController3.swift */,
+				B5009D5520293BFC001017A2 /* ViewController4.swift */,
+				B5009D5720293C04001017A2 /* ViewController5.swift */,
+				B5009D5920293C0D001017A2 /* ViewController6.swift */,
+				B5009D5B20293C15001017A2 /* ViewController7.swift */,
+				B5009D5D20293C1D001017A2 /* ViewController8.swift */,
+				B5009D5F20293C29001017A2 /* ViewController9.swift */,
+				B5009D6120293C33001017A2 /* ViewController10.swift */,
 			);
 			path = TestStaticLibrary;
 			sourceTree = "<group>";
@@ -242,21 +227,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5009CCC20284FA2001017A2 /* StringParser.swift in Sources */,
-				B5009CCF20284FA2001017A2 /* Service.swift in Sources */,
-				B5009CC720284FA2001017A2 /* Result.swift in Sources */,
-				B5009CCE20284FA2001017A2 /* Cancelable.swift in Sources */,
-				B5009CD020284FA2001017A2 /* Engine.swift in Sources */,
-				B5009CC420284FA2001017A2 /* RequestExecutor.swift in Sources */,
-				B5009CC820284FA2001017A2 /* HTTPMethod.swift in Sources */,
-				B5009CC220284FA2001017A2 /* APIError.swift in Sources */,
-				B5009CC920284FA2001017A2 /* Parser.swift in Sources */,
-				B5009CC620284FA2001017A2 /* Request.swift in Sources */,
-				B5009CCA20284FA2001017A2 /* NopCancelable.swift in Sources */,
-				B5009CCB20284FA2001017A2 /* AnonymousCancelable.swift in Sources */,
-				B5009CC520284FA2001017A2 /* MultipartFormData.swift in Sources */,
-				B5009CCD20284FA2001017A2 /* VoidParser.swift in Sources */,
-				B5009CC320284FA2001017A2 /* GenericRequest.swift in Sources */,
+				B5009D5C20293C15001017A2 /* ViewController7.swift in Sources */,
+				B5009D6220293C33001017A2 /* ViewController10.swift in Sources */,
+				B5009D4E20293BBE001017A2 /* ViewController1.swift in Sources */,
+				B5009D5020293BDC001017A2 /* ViewController2.swift in Sources */,
+				B5009D5420293BF2001017A2 /* ViewController3.swift in Sources */,
+				B5009D5A20293C0D001017A2 /* ViewController6.swift in Sources */,
+				B5009D5620293BFC001017A2 /* ViewController4.swift in Sources */,
+				B5009D5820293C04001017A2 /* ViewController5.swift in Sources */,
+				B5009D5E20293C1D001017A2 /* ViewController8.swift in Sources */,
+				B5009D6020293C29001017A2 /* ViewController9.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
