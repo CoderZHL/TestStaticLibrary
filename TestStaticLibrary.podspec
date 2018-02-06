@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name         = "TestStaticLibrary"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of TestStaticLibrary."
-  s.description  = "tttt"
+  s.version      = "1.0.1"
+  s.summary      = "A Library For Testing"
+  s.description  = "A project for Testing Swift Static Library"
 
   s.homepage     = "https://github.com/CoderZHL/TestStaticLibrary"
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/CoderZHL/TestStaticLibrary.git", :tag => "#{s.version}" }
   s.source_files  = "TestStaticLibrary/*"
   s.requires_arc = true
-
+  s.static_framework = true
 end
